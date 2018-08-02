@@ -1,0 +1,39 @@
+<!-- <mat-card class="example-card">
+    <mat-card-header class="example-header">
+      <mat-card-title class="title">Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="example-form">
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+              <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+          <td><mat-form-field class="example-full-width">
+            <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+          </mat-form-field></td>
+        </tr></table>
+      </form>
+      <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button (click)="login()" color="primary">Login</button>
+    </mat-card-actions>
+  </mat-card> -->
+  <div class="login-page">
+        <div class="form">
+            <h1>Sign In</h1>
+            <p>Please fill in this form to Login.</p>
+            <hr>      
+          <form class="login-form">
+                <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+            <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+            <button mat-raised-button (click)="login()" color="primary">Login</button>
+            <p class="message">Not registered? <a routerLink="/register">Create an account</a></p>
+          </form>
+        </div>
+    </div>

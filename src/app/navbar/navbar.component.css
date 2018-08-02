@@ -1,0 +1,34 @@
+.navbar-brand {
+    float: inherit;
+    height: 30px; 
+    padding: 5px;
+    font-size: 18px;
+    line-height: 20px;    
+    padding-inline-end:75px;
+    padding-inline-start: 10px;
+    display: inline;    
+}
+.navbar.navbar-inverse{
+    background-color:whitesmoke;
+    border: 0px;   
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);    
+}
+li a {
+    display: block;
+    color: black;        
+    text-decoration: none;     
+}
+li a:hover {
+    background-color: #555;
+    color:whitesmoke;;
+}
+li a:active{
+    color:black;
+}
+.nav.navbar-nav > li > a:focus {
+    background-color: #555;
+    color:whitesmoke;        
+}
+.navbar-header >button  {
+    background-color:grey;    
+} 
